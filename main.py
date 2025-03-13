@@ -2,8 +2,6 @@ from settings import DEFAULT_SIZES
 from PIL import Image
 import os
 
-from PIL import Image
-import os
 
 def centralize_and_crop(img_path, width_size=300, height_size=300, show=True):
     img = Image.open(img_path)
